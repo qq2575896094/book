@@ -1,0 +1,21 @@
+.language-dropdown-comp {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 16px;
+    font-size: 18px;
+
+    :global {
+        .ant-dropdown-trigger {
+            display: flex;
+            align-items: center;
+            line-height: 2.57rem;
+            cursor: pointer;
+
+            .anticon {
+                margin: 0.8rem 0;
+                font-size: 18px;
+            }
+        }
+    }
+}
