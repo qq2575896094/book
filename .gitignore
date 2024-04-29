@@ -2,7 +2,7 @@
 
 node_modules
 
-.vitepress/dist
+.vitepress/book
 .vitepress/cache
 
 package-lock.json

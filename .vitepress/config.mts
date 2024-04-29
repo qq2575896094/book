@@ -27,5 +27,6 @@ export default defineConfig({
     },
     rewrites: {
         'packages/:pkg/src/(.*)': ':pkg/(.*)'
-    }
+    },
+    outDir: './.vitepress/book'
 })
