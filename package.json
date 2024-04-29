@@ -1,0 +1,32 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "book of cskyer by vitePress",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qq2575896094/book.git"
+  },
+  "keywords": [
+    "book",
+    "vitePress"
+  ],
+  "author": "qq2575896094",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qq2575896094/book/issues"
+  },
+  "homepage": "https://github.com/qq2575896094/book#readme",
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
