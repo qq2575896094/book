@@ -1,2 +1,2 @@
 ---
-layout: ho
+layout: hom
