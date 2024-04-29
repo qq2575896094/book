@@ -47,7 +47,7 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.1.1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          ARGS: "--avzr --delete"
+          ARGS: "-avzr --delete"
           SOURCE: "./.vitepress/book"
           REMOTE_HOST:  ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USER }}
